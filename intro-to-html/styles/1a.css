@@ -1,0 +1,14 @@
+p{
+  text-align: center;
+  font-family:Montserrat ;
+}
+.heading-text{
+  font-size: 50px;
+  font-weight: bold;
+}
+.description-text{
+  font-size: 20px;
+}
+.span-text{
+  text-decoration: underline;
+}

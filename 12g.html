@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>12g design</title>
+    <style>
+      p{
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .flexbox{
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-left: 50px;
+      }
+      .info{
+        width: 200px; 
+      }
+      .profile-pic{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 15px;
+      }
+      .follow-button{
+        background-color:  rgb(29, 155, 240);
+        border: none;
+        padding:10px 15px 10px 15px ;
+        font-size: 16px;
+        border-radius: 8px;
+        color: white;
+      }
+      .name{
+        font-weight: bold;
+        margin-bottom: 3px;
+      }
+      .type{
+        margin-bottom: 5px;
+        color: rgb(150, 150, 150);
+      }
+      .category{
+        font-size:  14px;
+        color: rgb(150, 150, 150);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flexbox">
+        <img  class="profile-pic" src="profile-pics/cat.jpg">
+      <div class="info" >
+        <p class="name">oliver</p>
+        <p class="type">the cat</p>
+        <p class="category">Popular</p>
+      </div>
+        <button class="follow-button">Follow</button>
+    </div>
+
+    <div class="flexbox">
+      <img  class="profile-pic" src="profile-pics/cat2.jpg">
+    <div class="info" >
+      <p class="name">Mimi</p>
+      <p class="type">Sleepy Cat</p>
+      <p class="category">Popular</p>
+    </div>
+      <button class="follow-button">Follow</button>
+  </div>
+
+  <div class="flexbox">
+    <img  class="profile-pic" src="profile-pics/dog.jpg">
+  <div class="info" >
+    <p class="name">Rex</p>
+    <p class="type">Happy Bulldog</p>
+    <p class="category">Popular</p>
+  </div>
+    <button class="follow-button">Follow</button>
+</div>
+
+  </body>
+</html>

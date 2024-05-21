@@ -1,0 +1,43 @@
+p{
+  font-family: Roboto;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.heading-line{
+  font-size: 18px;
+  font-weight: bold;
+  width: 280px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+.views-line{
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 20px;
+}
+.name-line{
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-bottom:20px ;
+}
+.main-line{
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  width: 280px;
+  line-height: 20px;
+  margin-bottom: 100px;
+}
+.apple-line{
+  font-size: 14px;
+  background-color:rgb(227, 65, 64);
+  color: white;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.span-example{
+  cursor: pointer;
+}
+.span-example:hover{
+ text-decoration: underline;
+}
